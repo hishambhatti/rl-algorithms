@@ -4,13 +4,13 @@ PyTorch implementations of reinforcement learning and imitation learning algorit
 
 ## Overview
 
-This repo collects three self-contained modules that build on each other — from learning from demonstrations, to model-free control, to planning with learned dynamics:
+This repo collects three self-contained modules that build on each other: learning from demonstrations, model-free control, and planning with learned dynamics:
 
 | Module | Topic | Algorithms | Environments |
 |--------|-------|------------|--------------|
 | [`imitation-learning/`](imitation-learning/) | Imitation learning | Behavior cloning, DAgger, autoregressive policies, diffusion policies | [Reacher](https://gymnasium.farama.org/environments/mujoco/reacher/), [PointMaze](https://robotics.farama.org/envs/maze/point_maze/) |
-| [`model-free-rl/`](model-free-rl/) | Model-free RL | Policy gradient, actor-critic, soft actor-critic (SAC) | Inverted Pendulum, Ant |
-| [`model-based-rl/`](model-based-rl/) | Model-based RL | Random MPC (shooting), MPPI, ensemble MPPI | Reacher |
+| [`model-free-rl/`](model-free-rl/) | Model-free RL | Policy gradient, actor-critic, soft actor-critic (SAC) | [Inverted Pendulum](https://gymnasium.farama.org/environments/classic_control/pendulum/), [Ant](https://gymnasium.farama.org/environments/mujoco/ant/) |
+| [`model-based-rl/`](model-based-rl/) | Model-based RL | Random MPC (shooting), MPPI, ensemble MPPI | [Reacher](https://gymnasium.farama.org/environments/mujoco/reacher/) |
 
 Each module includes runnable training scripts, Jupyter notebooks with experiments and plots, and a short README with setup instructions.
 
