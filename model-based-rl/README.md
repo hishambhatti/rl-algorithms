@@ -1,4 +1,4 @@
-# Homework 3 — Model-Based RL
+# Model-Based RL
 
 ## Setup and Installation
 

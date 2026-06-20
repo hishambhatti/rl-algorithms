@@ -1,4 +1,4 @@
-# Homework 1
+# Imitation Learning
 
 ## Setup and Installation
 
